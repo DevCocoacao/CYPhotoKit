@@ -1,0 +1,16 @@
+PODS:
+  - CYPhotoKit (0.1.0)
+
+DEPENDENCIES:
+  - CYPhotoKit (from `../`)
+
+EXTERNAL SOURCES:
+  CYPhotoKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYPhotoKit: 477646585de80ca168f9643f44a539c6d24387d8
+
+PODFILE CHECKSUM: 478f10aba98d81fe19e82c47e5524191f270c42e
+
+COCOAPODS: 1.16.2

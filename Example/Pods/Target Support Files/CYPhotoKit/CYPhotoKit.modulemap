@@ -1,0 +1,6 @@
+framework module CYPhotoKit {
+  umbrella header "CYPhotoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0100C341314996E03F94D232 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0100C341314996E03F94D232 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1CB6E2E6A323296C0C408D5E /* Pods_CYPhotoKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYPhotoKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CYPhotoKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYPhotoKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,7 +58,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E648BF8F9B85347685909C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6E648BF8F9B85347685909C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		703749899CAFA8C46ACDF860 /* Pods-CYPhotoKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYPhotoKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CYPhotoKit_Tests/Pods-CYPhotoKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		703E797D61F4A23F7234C92A /* Pods-CYPhotoKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYPhotoKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CYPhotoKit_Example/Pods-CYPhotoKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		A66B695716DC89CC257EF774 /* Pods-CYPhotoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYPhotoKit_Example.release.xcconfig"; path = "Target Support Files/Pods-CYPhotoKit_Example/Pods-CYPhotoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8A5DC70BAADDC0C4DE6AA16 /* Pods-CYPhotoKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYPhotoKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CYPhotoKit_Tests/Pods-CYPhotoKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D17CC66C94ACD4DE3B9E39F8 /* Pods_CYPhotoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYPhotoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E73807330A8B693C368DC102 /* CYPhotoKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CYPhotoKit.podspec; path = ../CYPhotoKit.podspec; sourceTree = "<group>"; };
+		E73807330A8B693C368DC102 /* CYPhotoKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CYPhotoKit.podspec; path = ../CYPhotoKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +183,6 @@
 				A8A5DC70BAADDC0C4DE6AA16 /* Pods-CYPhotoKit_Tests.debug.xcconfig */,
 				703749899CAFA8C46ACDF860 /* Pods-CYPhotoKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = DevCocoacao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DVWS6N7Q6J;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,11 +497,13 @@
 			baseConfigurationReference = 703E797D61F4A23F7234C92A /* Pods-CYPhotoKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVWS6N7Q6J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CYPhotoKit/CYPhotoKit-Prefix.pch";
 				INFOPLIST_FILE = "CYPhotoKit/CYPhotoKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.ichcy.CYPhotoKit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +515,13 @@
 			baseConfigurationReference = A66B695716DC89CC257EF774 /* Pods-CYPhotoKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVWS6N7Q6J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CYPhotoKit/CYPhotoKit-Prefix.pch";
 				INFOPLIST_FILE = "CYPhotoKit/CYPhotoKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.ichcy.CYPhotoKit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

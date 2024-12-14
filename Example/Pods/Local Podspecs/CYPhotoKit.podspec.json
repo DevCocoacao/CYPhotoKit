@@ -1,0 +1,22 @@
+{
+  "name": "CYPhotoKit",
+  "version": "0.1.0",
+  "summary": "A short description of CYPhotoKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DevCocoacao/CYPhotoKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DevCocoacao": "97440317+DevCocoacao@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/DevCocoacao/CYPhotoKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CYPhotoKit/Classes/**/*"
+}
